@@ -1,4 +1,5 @@
 import Style from './card.module.css';
+import Btn from './btn/card-btn.jsx';
 
 function Card() {
   return (
@@ -13,9 +14,7 @@ function Card() {
         <p className={Style.card__text}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, porro. Nesciunt corporis doloremque nihil voluptate id incidunt praesentium illo quibusdam!
         </p>
-        <button>
-          Leggi di piú
-        </button>
+        <Btn />
       </div>
     </div>
   );
