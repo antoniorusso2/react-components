@@ -1,11 +1,11 @@
 import Style from './card.module.css';
-import Btn from './btn/card-btn.jsx';
+import Btn from '../btn/card-btn.jsx';
 
 function Card() {
   return (
     <div className={Style.card}>
 
-      <img src="https://placehold.co/600x400" alt="" />
+      <img className={Style.card__img} src="https://placehold.co/600x400" alt="" />
 
       <div className={Style.card__body}>
         <h3 className={Style.card__title}>
