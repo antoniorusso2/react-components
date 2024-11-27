@@ -1,5 +1,6 @@
 .main {
   margin-bottom: 5rem;
+  flex-grow: 1;
 }
 
 .title {
